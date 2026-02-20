@@ -56,6 +56,7 @@ while True:
     # ühed
     if number == 9:
         result = result + "IX"
+        number = 0
 
     elif number >= 5:
         result = result + "V"
@@ -63,6 +64,7 @@ while True:
 
     elif number == 4:
         result = result + "IV"
+        number = 0
 
     while number >= 1:
         result = result + "I"
